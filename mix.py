@@ -13,9 +13,9 @@ except ModuleNotFoundError:
 	os.system('pip install requests bs4 futures==2 > /dev/null')
 	os.system('python MIX.py')
 		
-print('[MIX] Join My Group')
+print('[MIX] \033[1;33mJoin My Group')
 os.system('xdg-open https://www.facebook.com/groups/970667860754460/')
-print('[MIX] Please Follower My Account')
+print('[MIX] \033[1;33mPlease Follower My Account')
 os.system('xdg-open https://www.facebook.com/PHYO.WAI.OLD.PAGE.SELLER')
 
 android_models=[]
